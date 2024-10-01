@@ -1,0 +1,11 @@
+.banner {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .banner-image {
+    max-width: 100%; /* Faz a imagem se ajustar ao tamanho do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 5px; /* Arredonda as bordas da imagem */
+  }
+  

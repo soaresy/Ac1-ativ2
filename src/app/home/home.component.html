@@ -1,0 +1,9 @@
+<h1>Bem-vindo à nossa loja!</h1>
+
+<div *ngIf="showBanner" class="banner">
+  <img src="assets/images/banner.jpg" alt="Banner Promocional" class="banner-image" />
+</div>
+
+<div class="button-container">
+  <button (click)="toggleBanner()">{{ showBanner ? 'Ocultar' : 'Mostrar' }} Banner</button>
+</div>
